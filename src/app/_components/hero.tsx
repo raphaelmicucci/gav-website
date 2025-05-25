@@ -1,10 +1,18 @@
 import logo from "../../../public/logo.png"
+import Image from "next/image"
 
 export function Hero() {
     return (
         <section className="bg-[#F0FBFF] relative overflow-hidden">
-            <div className="container mx-auto py-16 px-4 relative">
+            <div className="container mx-auto py-8 px-4 relative">
                 <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 " >
+                    <div className="h-full">
+                        <Image
+                        src={logo}
+                        alt="Logo da Grupo Amigos Voluntários"
+                        className="object-contain"
+                        />
+                    </div>
                     <div className="space-y-6">
 
                         
@@ -17,9 +25,6 @@ export function Hero() {
                                 Contato via WhatsApp
                             </a>
                         </div>
-                    </div>
-                    <div className="hidden md:block h-full">
-                        <h1>foto voluntários</h1>
                     </div>
                 </article>
             </div>
