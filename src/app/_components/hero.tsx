@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Hero() {
     return (
-        <section className="bg-[#F0FBFF] relative overflow-hidden">
+        <section className="bg-blue-100 relative overflow-hidden">
             <div className="container mx-auto py-8 px-4 relative">
                 <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 " >
                     <div className="h-full">
