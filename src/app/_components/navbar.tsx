@@ -13,7 +13,7 @@ export function Navbar() {
                     <NavigationMenuLink href="">Quem somos?</NavigationMenuLink>
                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                    <NavigationMenuLink href="">Assine</NavigationMenuLink>
+                    <NavigationMenuLink href="https://benfeitoria.com/projeto/gav">Assine</NavigationMenuLink>
                 </NavigationMenuItem>
                                 <NavigationMenuItem>
                     <NavigationMenuLink href="">Redes sociais</NavigationMenuLink>
