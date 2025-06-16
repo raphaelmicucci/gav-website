@@ -15,7 +15,7 @@ export function Assinatura() {
                 </div>
                 <a 
                     href="https://benfeitoria.com/projeto/gav" 
-                    className="bg-rose-600 px-5 py-2 my-5 rounded-md font-semibold items-center justify-center text-amber-50">
+                    className="bg-rose-600 px-5 py-2 my-5 rounded-md font-semibold items-center justify-center text-blue">
                     Assine aqui
                 </a>
             </div>

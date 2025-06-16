@@ -20,7 +20,7 @@ export function Sobre() {
                     <div className="h-1/2">
                         <Image
                         src={foto1}
-                        alt="Voluntários fantasiados de super-heróis tiram fotos com moradores"
+                        alt="Voluntários fantasiados de super-heróis tiram fotos com a população do Centro"
                         className="object-contain"
                         />
                     </div>
