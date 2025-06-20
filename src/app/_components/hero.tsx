@@ -14,7 +14,6 @@ export function Hero() {
                         />
                     </div>
                     <div className="space-y-6">
-
                         
                         <h1 className="text-3xl md:text-4xl lg:5xl leading-10 fontbold">Somos uma ONG que alimenta mais de 370 moradores de rua no centro de São Paulo.</h1>
                         <p className="lg:text-lg">Aprenda mais sobre quem somos</p>

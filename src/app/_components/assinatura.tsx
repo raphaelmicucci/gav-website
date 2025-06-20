@@ -1,8 +1,9 @@
 import logobenfeitoria from "../../../public/logo_benfeitoria.png"
 import Image from "next/image"
+
 export function Assinatura() {
     return (
-        <section className="container mx-auto py-8 px-4 relative items-center flex justify-center overflow-hidden">
+        <section id='assinatura' className="container mx-auto py-8 px-4 relative items-center flex justify-center overflow-hidden">
             <div className="container mx-auto relative items-center flex justify-center overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 ">
                     <div className="h-1/2 mx-2 ">

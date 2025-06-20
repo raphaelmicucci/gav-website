@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export function Sobre() {
     return (
-        <section className="relative overflow-hidden">
+        <section id='sobre' className="relative overflow-hidden">
             <div className="container mx-auto py-8 px-4 relative">
                 <article className="grid grid-cols-1 lg:grid-cols-2 gap-x-50 gap-y-10" >
                     <div className="space-y-6 mx-auto" >
