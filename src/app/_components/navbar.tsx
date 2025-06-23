@@ -1,27 +1,32 @@
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-} from "@/components/ui/navigation-menu"
-
 export function Navbar() {
-    return (
-        <NavigationMenu className="flex mx-auto px-4 ">
-            <NavigationMenuList className="flex lg:space-x-20 md:space-x-5  justify-between">
-                <NavigationMenuItem>
-                    <NavigationMenuLink href="#assinatura">Assine</NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                    <NavigationMenuLink href="">Redes sociais</NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                    <NavigationMenuLink href="#galeria">Fotos</NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                    <NavigationMenuLink href="#sobre">Quem somos?</NavigationMenuLink>
-                </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
-    )
+  return (
+    <nav className="w-full bg-white shadow-md sticky top-0 z-50">
+      <div className="container mx-auto px-6 py-4 flex flex-wrap justify-center gap-6 text-blue-900 font-semibold text-lg">
+        <a
+          href="#assinatura"
+          className="hover:text-blue-600 transition-colors"
+        >
+          Assine
+        </a>
+        <a
+          href="#redes"
+          className="hover:text-blue-600 transition-colors"
+        >
+          Redes sociais
+        </a>
+        <a
+          href="#galeria"
+          className="hover:text-blue-600 transition-colors"
+        >
+          Fotos
+        </a>
+        <a
+          href="#sobre"
+          className="hover:text-blue-600 transition-colors"
+        >
+          Quem somos?
+        </a>
+      </div>
+    </nav>
+  );
 }
